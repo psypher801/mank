@@ -20,10 +20,10 @@ var baseConfig = {
 var platformConfig = {
   development: {
     app: {
-      port: 3000
+      port: 59712
     },
     mongo: {
-      url: 'mongodb://localhost:27017/koan-dev'
+      url: 'ds059712.mlab.com:59712/mank'
     },
     oauth: {
       facebook: {
@@ -41,20 +41,20 @@ var platformConfig = {
 
   test: {
     app: {
-      port: 3001
+      port: 59712
     },
     mongo: {
-      url: 'mongodb://localhost:27017/koan-test'
+      url: 'ds059712.mlab.com:59712/mank'
     }
   },
 
   production: {
     app: {
-      port: process.env.PORT || 3000,
+      port: 59712,
       cacheTime: 7 * 24 * 60 * 60 * 1000 /* default caching time (7 days) for static files, calculated in milliseconds */
     },
     mongo: {
-      url: process.env.MONGODB_URI || process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost:27017/koan'
+      url: 'ds059712.mlab.com:59712/mank'
     },
     oauth: {
       facebook: {

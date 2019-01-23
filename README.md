@@ -1,8 +1,10 @@
-[![KOAN](/client/images/koan.png)](https://koan.herokuapp.com)
+[![MANK](/client/images/mank.png)](https://mank.herokuapp.com)
 
-[![Build Status](https://travis-ci.org/soygul/koan.svg?branch=master)](https://travis-ci.org/soygul/koan)
+[![Build Status](https://github.com/psypher801/mank.svg?branch=master)](https://github.com/psypher801/mank)
 
-KOAN Stack is a boilerplate that provides a starting point for full stack JavaScript Web development with [Koa](https://github.com/koajs/koa), [AngularJS](http://angularjs.org/), and [Node.js](http://www.nodejs.org/) along with [MongoDB](https://www.mongodb.org/) and [WebSockets](https://developer.mozilla.org/en/docs/WebSockets). A summary of tech stack:
+MANK Stack is a boilerplate that provides a starting point for full stack JavaScript Web development with [Koa](https://github.com/koajs/koa), [AngularJS](http://angularjs.org/), and [Node.js](http://www.nodejs.org/) along with [MongoDB](https://www.mongodb.org/) and [WebSockets](https://developer.mozilla.org/en/docs/WebSockets). It is a community contribution as the project parent, KOAN, appears to have gone dormant and I wanted to update the package to the most current stable version of each dependant available.
+
+A summary of tech stack:
 * **Client**: AngularJS and Bootstrap. Client side is fully static and CDN ready. All client packages are located at `client\bower_packages`.
 * **Server**: Koa for RESTful API serving on Node.js. ES2017 `async`/`await` functions all the way!
 * WebSockets along with JSON-RPC is used for real-time client-server communication and browser sync.
@@ -17,7 +19,7 @@ Browse the live KOAN example on [https://koan.herokuapp.com](https://koan.heroku
 Make sure that you have Node.js v7.6 or higher (for Node <7.6, use [v1.6 release](https://github.com/soygul/koan/releases/tag/v1.6)), and MongoDB v2 or higher (running on the default port 27017) installed on your computer. To get started with KOAN stack, do following:
 
 ```bash
-git clone --depth 1 https://github.com/soygul/koan.git
+git clone --depth 1 https://github.com/psypher801/mank.git
 cd koan
 npm install
 npm start

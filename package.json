@@ -7,7 +7,7 @@
     "url": "git://github.com/psypher801/mank.git"
   },
   "engines": {
-    "node": ">=7.6"
+    "node": "11.7"
   },
   "author": {
     "name": "David Gentry",

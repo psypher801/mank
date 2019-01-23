@@ -20,7 +20,7 @@ var baseConfig = {
 var platformConfig = {
   development: {
     app: {
-      port:80
+      port:3000
     },
     mongo: {
       url: process.env.MONGODB_URI,
@@ -78,4 +78,4 @@ var platformConfig = {
 };
 
 // override the base configuration with the platform specific values
-module.exports = _.merge(baseConfig, platformConfig[baseConfig.app.env || (baseConfig.app.env = 'development')]);
+module.exports = _.merge(baseConfig, platformConfig[baseConfig.app.env || (baseConfig.app.env = 'production')]);

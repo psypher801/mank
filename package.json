@@ -1,17 +1,17 @@
 {
-  "name": "koan",
+  "name": "mank",
   "license": "MIT",
-  "description": "KOAN Stack (Koa, Angular, Node, Mongo, WebSockets) for real-time full-stack JavaScript web development.",
+  "description": "MANK Stack (Mongo, Angular, Node, Koa) for real-time full-stack JavaScript web development.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/soygul/koan.git"
+    "url": "git://github.com/psypher801/mank.git"
   },
   "engines": {
     "node": ">=7.6"
   },
   "author": {
-    "name": "Teoman Soygul",
-    "url": "http://soygul.com/"
+    "name": "David Gentry",
+    "url": "http://davidgentry.me/"
   },
   "scripts": {
     "start": "grunt",

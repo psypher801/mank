@@ -23,7 +23,7 @@ var platformConfig = {
       port: 59712
     },
     mongo: {
-      url: 'ds059712.mlab.com:59712/mank'
+      url: process.env.MONGODB_URI
     },
     oauth: {
       facebook: {

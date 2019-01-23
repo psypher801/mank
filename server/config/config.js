@@ -20,10 +20,12 @@ var baseConfig = {
 var platformConfig = {
   development: {
     app: {
-      port: 59712
+      port:80
     },
     mongo: {
-      url: process.env.MONGODB_URI
+      url: process.env.MONGODB_URI,
+      port: 59712,
+      database: "mank"
     },
     oauth: {
       facebook: {
@@ -41,20 +43,24 @@ var platformConfig = {
 
   test: {
     app: {
-      port: 59712
+      port: 80
     },
     mongo: {
-      url: 'ds059712.mlab.com:59712/mank'
+      url: process.env.MONGODB_URI,
+      port: 59712,
+      database: "mank"
     }
   },
 
   production: {
     app: {
-      port: 59712,
+      port: 80,
       cacheTime: 7 * 24 * 60 * 60 * 1000 /* default caching time (7 days) for static files, calculated in milliseconds */
     },
     mongo: {
-      url: 'ds059712.mlab.com:59712/mank'
+      url: process.env.MONGODB_URI,
+      port: 59712,
+      database: "mank"
     },
     oauth: {
       facebook: {

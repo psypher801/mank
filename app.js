@@ -30,7 +30,7 @@ app.init = async function (overwriteDB) {
   app.server = app.listen(config.app.port);
   ws.listen(app.server);
   if (config.app.env !== 'test') {
-    console.log('KOAN listening on port ' + config.app.port);
+    console.log('MANK listening on port ' + config.app.port);
   }
 };
 

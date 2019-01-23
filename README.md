@@ -13,7 +13,7 @@ A summary of tech stack:
 * MongoDB for persistence.
 
 ## Live Example
-Browse the live KOAN example on [https://koan.herokuapp.com](https://koan.herokuapp.com) which is a Facebook like real-time sharing app.
+Browse the live MANK example on [https://mank.herokuapp.com](https://mank.herokuapp.com) which is a Facebook like real-time sharing app.
 
 ## Getting Started
 Make sure that you have Node.js v7.6 or higher (for Node <7.6, use [v1.6 release](https://github.com/soygul/koan/releases/tag/v1.6)), and MongoDB v2 or higher (running on the default port 27017) installed on your computer. To get started with KOAN stack, do following:
@@ -51,7 +51,7 @@ See [/test/server/users.js](/test/server/users.js) for an example.
 Client side is entirely based on the official: [Angular Seed](https://github.com/angular/angular-seed). Server side simply utilizes generally accepted Koa middleware and Node.js best practices.
 
 ## The Name
-The project name is an acronym for Koa, Angular, and Node. It also is the name for a Zen Buddhist riddle used to focus the mind during meditation and to develop intuitive thinking.
+The project name is an acronym for Mongo. Angular, Node, and MongoDB.
 
 ## License
 MIT
